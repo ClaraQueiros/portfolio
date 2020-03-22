@@ -614,7 +614,7 @@ ul {
   padding-top: 1.125rem;
 }
 
-@media only screen and (min-width: 1040px) and (max-width: 1920px) {
+@media (min-width: 1040px) and (max-width: 1920px) {
   body {
     font-size: 11px !important;
   }
@@ -624,7 +624,7 @@ ul {
   }
 }
 
-@media only screen and (min-width: 1040px) {
+@media (min-width: 1040px) {
   .burger {
     display: none;
   }
@@ -634,7 +634,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 1025px) {
+@media (max-width: 1025px) {
   .flex-grid {
     display: flex;
     justify-content: flex-start;
@@ -645,7 +645,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 1040px) {
+@media (max-width: 1040px) {
   body {
     overflow-x: hidden;
   }
