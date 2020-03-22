@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Arrow@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PORTFOLIO---NEW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CQ-Portfolio---Svrf-website" transform="translate(-66.000000, -469.000000)">
+            <g id="Group-3" transform="translate(64.000000, 319.000000)">
+                <g id="Group-4" transform="translate(0.000000, 148.000000)">
+                    <g id="Arrow">
+                        <path d="M36.999904,1.999981 C56.329939,1.999981 71.999973,17.670015 71.999973,36.999977 C71.999973,56.329939 56.329939,71.999973 36.999904,71.999973 C17.669942,71.999973 1.999908,56.329939 1.999908,36.999977 C1.999908,17.670015 17.669942,1.999981 36.999904,1.999981 Z" id="Ellipse-1" fill="#000000"></path>
+                        <g id="Group" transform="translate(19.000000, 28.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M26.7955099,-2.04281037e-14 L27.5351997,0.718310656 L35.2603102,8.64893895 L35.511,8.892 L36,9.3672496 L35.2603102,10.0855603 L27.92398,17.2816893 L27.1842901,18 L25.7049104,16.5633787 L26.4446003,15.845068 L32.011,10.383 L0,10.3830943 L0,8.35140493 L32.091,8.351 L26.0558201,2.15493197 L25.3161302,1.43662131 L26.7955099,-2.04281037e-14 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
