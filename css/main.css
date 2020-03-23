@@ -614,7 +614,7 @@ ul {
   padding-top: 1.125rem;
 }
 
-@media (min-width: 1040px) and (max-width: 1920px) {
+@media only screen and (min-width: 1040px) and (max-width: 1920px) {
   body {
     font-size: 11px !important;
   }
@@ -624,7 +624,7 @@ ul {
   }
 }
 
-@media (min-width: 1040px) {
+@media only screen and (min-width: 1040px) {
   .burger {
     display: none;
   }
@@ -634,18 +634,11 @@ ul {
   }
 }
 
-@media (max-width: 1025px) {
-  .flex-grid {
-    display: flex;
-    justify-content: flex-start;
+@media only screen and (max-width: 1039px) {
+  html {
+    font-size: 8px;
   }
 
-  .col {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1040px) {
   body {
     overflow-x: hidden;
   }
@@ -679,6 +672,15 @@ ul {
     font-size: 3rem;
   }
 
+  .flex-grid {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .col {
+    width: 100%;
+  }
+
   .container {
     width: 100%;
     padding-left: 8%;
@@ -693,8 +695,12 @@ ul {
     margin-left: -50%;
   }
 
+  .navbar-logo {
+    width: 10rem;
+  }
+
   .navbar-logo-compact {
-    transform: scale(1);
+    transform: translateY(-1rem) scale(0.7);
   }
 
   .navbar-compact {
@@ -740,8 +746,8 @@ ul {
 
   .burger {
     display: block;
-    width: 60px;
-    height: 45px;
+    width: 30px;
+    height: 22.5px;
     padding-top: 2rem;
     position: relative;
     margin-top: 2rem;
@@ -760,10 +766,10 @@ ul {
   .burger span {
     display: block;
     position: absolute;
-    height: 2px;
+    height: 1px;
     width: 100%;
     background: black;
-    border-radius: 2px;
+    border-radius: 1px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -782,15 +788,15 @@ ul {
 
   .burger span:nth-child(2),
   .burger span:nth-child(3) {
-    top: 18px;
+    top: 9px;
   }
 
   .burger span:nth-child(4) {
-    top: 36px;
+    top: 18px;
   }
 
   .burger.open span:nth-child(1) {
-    top: 18px;
+    top: 9px;
     width: 0%;
     left: 50%;
   }
@@ -810,7 +816,7 @@ ul {
   }
 
   .burger.open span:nth-child(4) {
-    top: 18px;
+    top: 9px;
     width: 0%;
     left: 50%;
   }
