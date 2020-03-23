@@ -733,6 +733,10 @@ ul {
     height: 8rem;
   }
 
+  .no-button-subtitle {
+    margin-top: 4rem;
+  }
+
   .full-width-row {
     display: flex;
     flex-direction: column;
@@ -945,15 +949,15 @@ ul {
     justify-content: center;
     width: 100%;
     padding-right: 0;
-    height: 600px;
+    height: 280px;
     padding-bottom: 9rem;
   }
 
   .card-gif .phone {
     position: absolute;
-    border-radius: 15px;
-    width: 234px;
-    transform: translateY(-25px)
+    border-radius: 7.5px;
+    width: 117px;
+    transform: translateY(-8px)
   }
 
   .card-gif h5 {
