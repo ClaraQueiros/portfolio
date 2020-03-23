@@ -855,9 +855,14 @@ ul {
     display: none;
   }
 
+  .about {
+    padding-bottom: 12rem;
+  }
+
   .about .content {
     display: flex;
     flex-direction: column;
+    padding-top: 8rem;
   }
 
   .about .content .action-button {
@@ -871,7 +876,7 @@ ul {
 
   .about p {
     padding-left: 0 !important;
-    padding-top: 6rem;
+    padding-top: 8rem;
   }
 
   .about a {
