@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Portfolio of Clara Queirós, a web designer from Portugal." />
+  <link rel="shortcut icon" href="./assets/clara_favicon_clara.png" type="image/x-icon" />
+  <title>Portfolio Clara Queirós</title>
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.typekit.net/vvm7lxu.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/vvm7lxu.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    (function (f, b) {
+      if (!b.__SV) {
+        var e, g, i, h;
+        window.mixpanel = b;
+        b._i = [];
+        b.init = function (e, f, c) {
+          function g(a, d) {
+            var b = d.split(".");
+            2 == b.length && (a = a[b[0]], d = b[1]);
+            a[d] = function () {
+              a.push([d].concat(Array.prototype.slice.call(arguments, 0)))
+            }
+          }
+          var a = b;
+          "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel";
+          a.people = a.people || [];
+          a.toString = function (a) {
+            var d = "mixpanel";
+            "mixpanel" !== c && (d += "." + c);
+            a || (d += " (stub)");
+            return d
+          };
+          a.people.toString = function () {
+            return a.toString(1) + ".people (stub)"
+          };
+          i =
+            "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove"
+            .split(" ");
+          for (h = 0; h < i.length; h++) g(a, i[h]);
+          var j = "set set_once union unset remove delete".split(" ");
+          a.get_group = function () {
+            function b(c) {
+              d[c] = function () {
+                call2_args = arguments;
+                call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                a.push([e, call2])
+              }
+            }
+            for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j
+              .length; c++) b(j[c]);
+            return d
+          };
+          b._i.push([e, f, c])
+        };
+        b.__SV = 1.2;
+        e = f.createElement("script");
+        e.type = "text/javascript";
+        e.async = !0;
+        e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+          MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+          .match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" :
+          "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+        g = f.getElementsByTagName("script")[0];
+        g.parentNode.insertBefore(e, g)
+      }
+    })(document, window.mixpanel || []);
+    mixpanel.init("49ccd7b3e346d5b727b54302d4062b3e");
+    mixpanel.track('Visit svrf app');
+  </script>
+</head>
+<!-- Navigation -->
+
+<body>
+  <div id="burger-menu" class="burger-menu hidden">
+    <div class="container">
+      <ul class="burger-menu-content">
+        <li>
+          <a class="work-specific" href="#">WORK</a>
+        </li>
+        <li>
+          <a class="about-specific" href="#">ABOUT</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-extended footer-extended-burger">
+      <h5>
+        <script>
+          document.write(new Date().getFullYear())
+        </script> CLARA QUEIRÓS
+      </h5>
+      <ul>
+        <li>
+          <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">
+            EMAIL</a>
+        </li>
+        <li>
+          <a id="last-a" target="_blank" href="https://www.linkedin.com/in/anaclaraqueiros/">LINKEDIN</a>
+        </li>
+        <li>
+          <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros">BEHANCE</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="work-detail dark">
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-logo smooth">
+          <a href="./index.html">
+            <img id="clara-logo" src="./assets/clara_logo.svg" />
+          </a>
+        </div>
+        <ul class="horizontal-ul menu">
+          <li>
+            <a class="work-specific" href="#">WORK</a>
+          </li>
+          <li>
+            <a class="about-specific" href="#">ABOUT</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="work-title">
+      <h1>Payroll app</h1>
+      <a class="action-button" target="_blank"
+        href="https://www.figma.com/proto/4tLbr1YiVEEVwC2uBLMUqC/Payroll-App-Google-UX-Design-Certificate?node-id=1247%3A24368&scaling=scale-down&page-id=907%3A1879&starting-point-node-id=1247%3A24368">
+        <div class="action-ball">
+          <img src="./assets/icon_goto.svg" />
+        </div>
+        <h5 class="action-ball">View prototype</h5>
+      </a>
+    </div>
+  </div>
+  <!-- work -->
+  <div class="work-intro light">
+    <div class="work-intro-container-extended">
+      <h3>As a design team of one, I enrolled in Google UX Design Professional Certificate to immerse myself in the UX
+        world. In that context, I decided to design a payroll app for a
+        bicycle shop in Lisbon.<br />
+        To make the process of running payroll a smoother experience. Targeted to busy small-business owners who run
+        payroll manually, and want to streamline their payroll process.
+      </h3>
+      <div class="work-intro-details-vertical">
+        <div>
+          <h4>ROLE
+          </h4>
+          <h6>Solo Project - UX designer designing the Payroll app from conception to delivery.
+          </h6>
+        </div>
+        <div>
+          <h4>RESPONSABILITIES
+          </h4>
+          <h6>Conducting interviews, wireframing, prototyping, conducting usability studies, accounting for
+            accessibility, and iterating on designs.
+          </h6>
+        </div>
+        <div>
+          <h4>DURATION
+          </h4>
+          <h6>June 2021 to August 2021
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container full-container-img light">
+    <img class="cover-img" src="./assets/payroll_01.png" />
+  </div>
+  <div class="challenge-role top-130 bottom-105 light">
+    <div class="container full-width-row">
+      <h2>Problem</h2>
+      <p>Running payroll is a complex process, and prone to manual errors. Small business owners run payroll manually or
+        depend on third parties to help them in the process.</p>
+    </div>
+  </div>
+  <div>
+    <div class="container light">
+      <div class="box statement">
+        <div>
+          <p>“I don't have much time for paperwork things, and because we are just two, it's very important for me to do
+            it quickly.”</p>
+          <p>João António</p>
+          <p>Beer place owner</p>
+        </div>
+        <div>
+          <p>“It’s always challenging, errors can happen and sometimes we set up the payroll incorrectly, or we forget
+            and it’s not ideal.”</p>
+          <p>Cristina</p>
+          <p>Restaurant owner</p>
+        </div>
+        <div>
+          <p>“Our accountant is very helpfull but if there is some problem, we need to help solving it. It's
+            time-consuming and expensive.”</p>
+          <p>Augusto</p>
+          <p>International transports company</p>
+        </div>
+      </div>
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Goal</h2>
+        <div class="goal-description">
+          <p>Design a payroll app that allows busy small business owners to run the payroll on the go and be more
+            productive by streamlining their payment process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Research</h2>
+        <div class="research">
+          <p>
+            I conducted user interviews with 5 small business owners and created empathy maps to understand the users
+            I’m
+            designing for and their needs. A primary user group identified through research was small business owners
+            who
+            would like to spend less time with payroll and enjoy their favorite experiences. The second user group
+            identified was less tech-savvy small business owners that want to depend less on third parties.
+            <br />
+            <br />
+            <br />
+          </p>
+          <p><b>Pain Points</b></p>
+          <br />
+          <p>● Added responsibilities and a challenging busy day make it difficult for small business owners to run
+            payroll manually.</p>
+          <br />
+          <p>● Big interest in reducing costs and spend less time with payroll functions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container full-container-img light">
+      <img class="cover-img" src="./assets/payroll_02.png" />
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2></h2>
+        <div class="research">
+          <p><b>Competitive Audit</b></p>
+          <br />
+          <p>
+            To better understand the landscape regarding direct and indirect competitors, I conducted a competitive
+            audit where I was able to compare strengths, weaknesses, and gaps from their products.
+            <br />
+            <br />
+            Finding and comprehending where our competitors stand, I could outline a competitive report where
+            opportunities for improvement for our product to stand out were defined and could later be applied.
+            <br />
+            <br />
+          </p>
+          <div class="box-small">
+            <p class="body-small">
+              <span>
+                Some <b>gaps</b> identified include:
+                <br />
+                <br />
+                Competitor products don’t offer a specific mobile app to run payroll.<br />
+                Competitor products are too complex for small businesses.<br />
+                The onboarding process is too complex in some cases.
+              </span>
+            </p>
+          </div>
+          <br />
+          <br />
+          <div class="box-small">
+            <p class="body-small">
+            <span>
+              Some <b>opportunities</b> identified include:
+              <br />
+              <br />
+              A simple and straightforward process focused on the main goal.<br />
+              Integration of voice assistive technology.<br />
+              Payroll frequency customization option.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container full-container-img light">
+      <img class="cover-img" src="./assets/payroll_03.png" />
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Wireframes<br />
+          and<br />
+          Low-fidelity<br />
+          Prototypes</h2>
+        <div class="goal-description">
+          <p>I created wireframe sketches to rough out my design ideas for the main screens.
+            <br />
+            <br />
+            While working on this initial design phase, I always tried to address the feedback from the user research.
+            For the home screen, I prioritized a quick and easy payroll process to help users save time. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container full-container-img light">
+      <img class="cover-img" src="./assets/payroll_04.png" />
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Usability<br />
+          Studies</h2>
+        <div class="goal-description">
+          <p>I conducted two rounds of unmoderated usability studies. One study was with the lo-fi prototype and another
+            was later already with a high-fidelity prototype. Findings from the first study helped guide the design from
+            wireframes to mockups. The second study used a high-fidelity prototype and revealed what elements of the
+            mockups needed refining.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container horizontal light center-flex bottom-147">
+      <div class="usability-table">
+        <p><b>Research Goals</b></p>
+        <br />
+        <br />
+        <div class="box-small">
+          <p class="body-small">
+            If users could easily complete core tasks within the prototype of <br />the app.
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="box-small">
+          <p class="body-small">
+            If users could find the employees information they need to setup <br />their payroll.
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="box-small">
+          <p class="body-small">
+            Determine the elements of the app that are difficult to use.
+          </p>
+        </div>
+      </div>
+      <div class="usability-table">
+        <p><b>Findings & key insights</b></p>
+        <br />
+        <br />
+        <div class="box-small">
+          <p class="body-small">
+            Users need more intuitive and easier way of the required steps to <br />start running payroll.
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="box-small">
+          <p class="body-small">
+            Users want an easier access to employees details.
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="box-small">
+          <p class="body-small">
+            Easier way of find the CTA “Run Payroll” if there’s a big list of <br />employees.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container full-container-img light">
+      <img class="cover-img" src="./assets/payroll_05.png" />
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Refining</br />
+          the design</h2>
+        <div class="goal-description">
+          <p>Early designs allowed to start the payroll process right away, but the usability studies revealed that it
+            wasn't very clear for some users. After some iterations, I revised the designs to provide a more functional
+            and intuitive homepage and a better experience overall. Each main action in the app has a dedicated icon for
+            easy access.</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <img src="./assets/payroll_06.png" />
+        </div>
+      </div>
+    </div>
+    <div class="top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Visual Design</h2>
+      </div>
+    </div>
+    <div class="container full-container-img light">
+      <img src="./assets/payroll_07.png" />
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Hi-fidelity<br />
+          prototype &<br />
+          Key Screens</h2>
+        <div class="goal-description">
+          <a class="action-button" target="_blank"
+            href="https://www.figma.com/proto/4tLbr1YiVEEVwC2uBLMUqC/Payroll-App-Google-UX-Design-Certificate?node-id=1247%3A24368&scaling=scale-down&page-id=907%3A1879&starting-point-node-id=1247%3A24368">
+            <div class="action-ball">
+              <img src="./assets/icon_goto.svg" />
+            </div>
+            <h5 class="action-ball">View prototype</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container full-container-img light">
+      <img src="./assets/payroll_08.png" />
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Next Steps</h2>
+        <div class="research">
+          <p><b>Usability testing, employee self check-in.</b></p>
+          <br />
+          <br />
+          <p>
+            Conduct additional studies to understand if there are pain points that need to be addressed in the process.
+            <br />
+            <br />
+            More user research can be conducted to determine any new areas of need.
+            <br />
+            <br />
+            Add option to employee self check-in.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="challenge-role top-130 bottom-105 light">
+      <div class="container full-width-row">
+        <h2>Takeways</h2>
+        <div class="research">
+          <p><b>Impact</b></p>
+          <br />
+          <br />
+          <p>
+            The app makes users feel like Payroll App thinks about how to meet their needs.
+            <br />
+            <br />
+            One quote from user feedback:
+            “What I like about the app is that is focused on running payroll and just that. Getting rid of extras make
+            it straight to the point. I would use it.”
+            <br />
+            <br />
+            Add option to employee self check-in.
+            <br />
+            <br />
+          </p>
+          <p><b>What I learned</b></p>
+          <br />
+          <br />
+          <p>
+            Our designs should always be grounded in rationale to support our decisions. All the beginning steps and
+            research are setting the foundations for our product. The feedback we get from peers and other stakeholders
+            is essential to delivering an overall consistent design.
+            <br />
+            <br />
+            It's also good to keep in mind users come from different backgrounds. Using best practices like simple
+            universal patterns can help somewhat.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <ul class="horizontal-ul">
+        <li>
+        <li>
+          <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/anaclaraqueiros/">LINKEDIN</a>
+        </li>
+        <li>
+          <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros">BEHANCE</a>
+        </li>
+        </li>
+      </ul>
+    </footer>
+    <div class="footer-extended container">
+      <h5>
+        <script>
+          document.write(new Date().getFullYear())
+        </script> CLARA QUEIRÓS
+      </h5>
+      <ul>
+        <li>
+          <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/anaclaraqueiros/">LINKEDIN</a>
+        </li>
+        <li>
+          <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros">BEHANCE</a>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
