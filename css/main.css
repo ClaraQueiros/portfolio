@@ -416,6 +416,10 @@ ul {
   padding-top: 75px; padding-bottom: 24px;
 }
 
+#vid {
+  width: 60%;
+}
+
 /* About */
 .about {
   padding-top: 8rem;
