@@ -1,202 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-    name="description"
-    content="I’m Clara, a UX/UI designer who loves coffee, cooking and traveling. I thrive when I’m challenged by complex problems that have an impact on people."
-    />
-    <link
-      rel="shortcut icon"
-      href="./assets/clara_favicon_clara.png"
-      type="image/x-icon"
-      />
-      <title>Clara Queirós | UX/UI designer</title>
-      <!-- Fontawesome -->
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="https://use.typekit.net/vvm7lxu.css" />
-        <link rel="stylesheet" href="https://use.typekit.net/vvm7lxu.css" />
-        <link rel="stylesheet" href="./css/main.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript">
-        (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-        for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-        MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
-        mixpanel.init("49ccd7b3e346d5b727b54302d4062b3e");
-        mixpanel.track('Visit svrf web');
-        </script>
-      </head>
-      <!-- Navigation -->
-      <body>
-        <div id="burger-menu" class="burger-menu hidden">
-          <div class="container">
-            <ul class="burger-menu-content">
-              <li>
-                <a class="work-specific" href="#">WORK</a>
-              </li>
-              <li>
-                <a class="about-specific" href="#">ABOUT</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-extended footer-extended-burger">
-            <h5><script>document.write(new Date().getFullYear())</script> CLARA QUEIRÓS</h5>
-            <ul>
-              <li>
-                <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/anaclaraqueiros/"
-                >LINKEDIN</a
-                >
-              </li>
-              <li>
-                <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros"
-                >BEHANCE</a
-                >
-              </li>
-            </ul>
-          </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description"
+    content="I’m Clara, a UX/UI designer who loves coffee, cooking and traveling. I thrive when I’m challenged by complex problems that have an impact on people." />
+  <link rel="shortcut icon" href="./assets/clara_favicon_clara.png" type="image/x-icon" />
+  <title>Clara Queirós | UX/UI designer</title>
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.typekit.net/vvm7lxu.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/vvm7lxu.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    (function (f, b) {
+      if (!b.__SV) {
+        var e, g, i, h;
+        window.mixpanel = b;
+        b._i = [];
+        b.init = function (e, f, c) {
+          function g(a, d) {
+            var b = d.split(".");
+            2 == b.length && (a = a[b[0]], d = b[1]);
+            a[d] = function () {
+              a.push([d].concat(Array.prototype.slice.call(arguments, 0)))
+            }
+          }
+          var a = b;
+          "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel";
+          a.people = a.people || [];
+          a.toString = function (a) {
+            var d = "mixpanel";
+            "mixpanel" !== c && (d += "." + c);
+            a || (d += " (stub)");
+            return d
+          };
+          a.people.toString = function () {
+            return a.toString(1) + ".people (stub)"
+          };
+          i =
+            "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove"
+            .split(" ");
+          for (h = 0; h < i.length; h++) g(a, i[h]);
+          var j = "set set_once union unset remove delete".split(" ");
+          a.get_group = function () {
+            function b(c) {
+              d[c] = function () {
+                call2_args = arguments;
+                call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                a.push([e, call2])
+              }
+            }
+            for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j
+              .length; c++) b(j[c]);
+            return d
+          };
+          b._i.push([e, f, c])
+        };
+        b.__SV = 1.2;
+        e = f.createElement("script");
+        e.type = "text/javascript";
+        e.async = !0;
+        e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+          MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+          .match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" :
+          "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+        g = f.getElementsByTagName("script")[0];
+        g.parentNode.insertBefore(e, g)
+      }
+    })(document, window.mixpanel || []);
+    mixpanel.init("49ccd7b3e346d5b727b54302d4062b3e");
+    mixpanel.track('Visit svrf web');
+  </script>
+</head>
+<!-- Navigation -->
+
+<body>
+  <div id="burger-menu" class="burger-menu hidden">
+    <div class="container">
+      <ul class="burger-menu-content">
+        <li>
+          <a class="work-specific" href="#">WORK</a>
+        </li>
+        <li>
+          <a class="about-specific" href="#">ABOUT</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-extended footer-extended-burger">
+      <h5>
+        <script>
+          document.write(new Date().getFullYear())
+        </script> CLARA QUEIRÓS
+      </h5>
+      <ul>
+        <li>
+          <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/anaclaraqueiros/">LINKEDIN</a>
+        </li>
+        <li>
+          <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros">BEHANCE</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="work-detail dark">
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-logo smooth">
+          <a href="./index.html">
+            <img id="clara-logo" src="./assets/clara_logo.svg" />
+          </a>
         </div>
-        <div class="work-detail dark">
-          <div class="container">
-            <div class="navbar">
-              <div class="navbar-logo smooth">
-                <a href="./index.html">
-                  <img id="clara-logo" src="./assets/clara_logo.svg" />
-                </a>
-              </div>
-              <ul class="horizontal-ul menu">
-                <li>
-                  <a class="work-specific" href="#">WORK</a>
-                </li>
-                <li>
-                  <a class="about-specific" href="#">ABOUT</a>
-                </li>
-              </ul>
-              <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-          </div>
-          <div class="work-title">
-            <h1>Svrf Website</h1>
-            <a class="action-button" target="_blank" href="https://www.svrf.com/">
-              <div>
-                <img src="./assets/icon_goto.svg"/>
-              </div>
-              <h5>Go to svrf.com</h5>
-            </a>
-          </div>
-        </div>
-        <!-- work -->
-        <div class="work-intro light">
-          <div class="work-intro-container">
-            <h3>Svrf makes 3D searchable, shareable, and accessible on all platforms. We focus on bringing 3D into the daily lives of our users in ways that allow them to create, capture, and share 3D everyday!
-            </h3>
-            <div class="work-intro-details">
-              <div>
-                <h4>ROLE
-                </h4>
-                <h6>UX/UI Design
-                </h6>
-              </div>
-              <div>
-                <h4>TEAM
-                </h4>
-                <h6>Svrf
-                </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container full-container-img light">
-          <img src="./assets/work_svrf_website_01.png"/>
-        </div>
-        <div class="challenge-role light">
-          <div class="container full-width-row challenge">
-            <h2>The Challenge</h2>
-            <p>The challenge was that when Svrf launched their website in early 2017, it focused on providing users with a search platform for virtual reality content, specifically 360 videos and photos. Today we’re taking a new approach to our website that focuses on our latest product launch, a filter camera app for iOS.</p>
-          </div>
-          <div class="container full-width-row">
-            <h2>My Role</h2>
-            <p>I helped to define and maintain Svrf’s design system and designed the new website. Design responsabilities included research, information architecture, user flows, visual and prototyping.</p>
-          </div>
-        </div>
-        <div class="process light container">
-          <h2>The Process</h2>
-          <div class="full-container-img">
-            <img src="./assets/svrf_website_process.png"/>
-          </div>
-          <div class="process-detail">
-            <p>The solution was to create a new website much simpler that
-              represents the evolved brand. The new website focuses on crafting
-              a narrative that allows users and brands alike to understand the
-            Svrf story.</p>
-            <a class="action-button" target="_blank" href="https://www.svrf.com/">
-              <div>
-                <img src="./assets/icon_goto.svg"/>
-              </div>
-              <h5>Visit svrf.com</h5>
-            </a>
-          </div>
-        </div>
-        <div class="full-container-img light">
-          <img src="./assets/work_svrf_website_02.png"/>
-        </div>
-      </div>
-      <!-- FOOTER -->
-      <footer class="footer">
-        <ul class="horizontal-ul">
+        <ul class="horizontal-ul menu">
           <li>
-            <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
+            <a class="work-specific" href="#">WORK</a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/anaclaraqueiros/"
-            >LINKEDIN</a
-            >
-          </li>
-          <li>
-            <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros"
-            >BEHANCE</a
-            >
+            <a class="about-specific" href="#">ABOUT</a>
           </li>
         </ul>
-      </footer>
-      <div class="footer-extended container">
-        <h5><script>document.write(new Date().getFullYear())</script> CLARA QUEIRÓS</h5>
-        <ul>
-          <li>
-            <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/anaclaraqueiros/"
-            >LINKEDIN</a
-            >
-          </li>
-          <li>
-            <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros"
-            >BEHANCE</a
-            >
-          </li>
-        </ul>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-      <script type="text/javascript" src="js/main.js"></script>
-    </body>
-  </html>
+    </div>
+    <div class="work-title">
+      <h1>Svrf Website</h1>
+      <a class="action-button" target="_blank" href="https://www.svrf.com/">
+        <div>
+          <img src="./assets/icon_goto.svg" />
+        </div>
+        <h5>Go to svrf.com</h5>
+      </a>
+    </div>
+  </div>
+  <!-- work -->
+  <div class="work-intro light">
+    <div class="work-intro-container">
+      <h3>Svrf makes 3D searchable, shareable, and accessible on all platforms. We focus on bringing 3D into the daily
+        lives of our users in ways that allow them to create, capture, and share 3D everyday!
+      </h3>
+      <div class="work-intro-details">
+        <div>
+          <h4>ROLE
+          </h4>
+          <h6>UX/UI Design
+          </h6>
+        </div>
+        <div>
+          <h4>TEAM
+          </h4>
+          <h6>Svrf
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container full-container-img light">
+    <img src="./assets/work_svrf_website_01.png" />
+  </div>
+  <div class="challenge-role top-130 light">
+    <div class="container full-width-row">
+      <h2>My contribution</h2>
+      <p style="display: inline;">
+        ● Define user flows and Information Architecture;<br />
+        ● Create wireframes and high fidelity mockups;<br />
+        ● Prototyping;<br />
+        ● Maintain a design system with one of our engineers (Artem Titoulenko);<br />
+        ● Create storyboard for our marketing videos;<br />
+        ● Update our branding;<br />
+        ● Assist on user interviews and document insights;<br />
+        ● Iterating on designs.
+      </p>
+    </div>
+  </div>
+  <div class="challenge-role light">
+    <div class="container full-width-row challenge">
+      <h2>The Challenge</h2>
+      <p>The challenge was that when Svrf launched their website in early 2017, it focused on providing users with a
+        search platform for virtual reality content, specifically 360 videos and photos. Today we’re taking a new
+        approach to our website that focuses on our latest product launch, a filter camera app for iOS.</p>
+    </div>
+    <div class="container full-width-row">
+      <h2>My Role</h2>
+      <p>I helped to define and maintain Svrf’s design system and designed the new website. Design responsabilities
+        included research, information architecture, user flows, visual and prototyping.</p>
+    </div>
+  </div>
+  <div class="process light container">
+    <h2>The Process</h2>
+    <div class="full-container-img">
+      <img src="./assets/svrf_website_process.png" />
+    </div>
+    <div class="process-detail">
+      <p>The solution was to create a new website much simpler that
+        represents the evolved brand. The new website focuses on crafting
+        a narrative that allows users and brands alike to understand the
+        Svrf story.</p>
+      <a class="action-button" target="_blank" href="https://www.svrf.com/">
+        <div>
+          <img src="./assets/icon_goto.svg" />
+        </div>
+        <h5>Visit svrf.com</h5>
+      </a>
+    </div>
+  </div>
+  <div class="full-container-img light">
+    <img src="./assets/work_svrf_website_02.png" />
+  </div>
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <ul class="horizontal-ul">
+      <li>
+        <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/anaclaraqueiros/">LINKEDIN</a>
+      </li>
+      <li>
+        <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros">BEHANCE</a>
+      </li>
+    </ul>
+  </footer>
+  <div class="footer-extended container">
+    <h5>
+      <script>
+        document.write(new Date().getFullYear())
+      </script> CLARA QUEIRÓS
+    </h5>
+    <ul>
+      <li>
+        <a target="_blank" href="mailto:anaclaravqueiros@gmail.com">EMAIL</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/anaclaraqueiros/">LINKEDIN</a>
+      </li>
+      <li>
+        <a id="last-a" target="_blank" href="https://www.behance.net/claraqueiros">BEHANCE</a>
+      </li>
+    </ul>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
