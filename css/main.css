@@ -631,7 +631,7 @@ ul {
 .work-intro-details-vertical {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   padding-top: 2rem;
 }
@@ -645,10 +645,6 @@ ul {
   padding-top: 2rem;
   text-align: left !important;
   padding-right: 3rem;
-}
-
-.work-intro-details-vertical div:nth-child(2) {
-  flex: 0.39;
 }
 
 .work-intro-details-vertical h6 {
