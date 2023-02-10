@@ -647,6 +647,10 @@ ul {
   padding-right: 3rem;
 }
 
+.list-2col div {
+  flex: 0.5 !important;
+}
+
 .work-intro-details-vertical h6 {
   padding-top: 1rem;
   text-align: left !important;
