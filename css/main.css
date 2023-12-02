@@ -71,6 +71,10 @@ h2 {
   margin: 0;
 }
 
+.bigger-title {
+  font-size: 44px;
+}
+
 h3 {
   font-family: roc-grotesk-wide, sans-serif;
   font-weight: 400;
