@@ -1161,6 +1161,16 @@ ul {
     align-items: flex-start;
   }
 
+  .award-box {
+    flex-direction: column !important;
+  }
+
+  .award {
+    align-self: center;
+    margin-right: 0 !important;
+    margin-bottom: 24px !important;
+  }
+
   .work-intro-details div {
     padding-top: 6rem;
   }
